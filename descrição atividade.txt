@@ -1,0 +1,34 @@
+Atividade 3: Cadastro de Clientes
+Considere o arquivo-texto 'arquivo de clientes.txt' discutido em sala de aula, onde a primeira linha possui o número de registros e as demais linhas possuem em cada uma delas quatro campos relacionados a um único cliente: nome, sobrenome, celular e CPF. Os campos celular e CPF são valores inteiros, e os campos nome e sobrenome possuem no máximo 30 caracteres (os espaços são underlines).
+
+Faça um programa em C para gerenciar o cadastro de clientes de uma empresa que leia as informações do arquivo-texto no início do programa para um vetor de registros de no máximo 100 posições e, depois de várias tarefas realizadas (descritas abaixo), escreva o resultado no próprio arquivo-texto. O programa deve conter um menu com as opções:
+
+ - inserção de cliente;
+
+ - exclusão de cliente;
+
+ - alteração de dados;
+
+ - busca por celular (ordenar pelo bubble sort);
+
+ - busca por CPF (ordenar pelo selection sort);
+
+ - outras funções que quiserem fazer.
+
+Requisitos:
+
+ - todas as opções acima devem estar em funções;
+
+ - entrada do teclado e saída na tela devem ser feitas somente na função main();
+
+ - não devem existir variáveis globais (somente variáveis locais);
+
+ - a lista de produtos no arquivo-texto pode estar desordenada, mas no início deve ser escrita no vetor ordenada pelo celular (bubble sort);
+
+ - na busca de um registro pelo campo celular o vetor deverá ser ordenado pelo bubble sort;
+
+ - na busca de um registro pelo campo CPF o vetor deverá ser ordenado pelo selection sort;
+
+ - não devem existir "buracos" no vetor quando for realizada a exclusão de um registro;
+
+ - somente depois que todas as operações forem realizadas no vetor (antes de terminar o programa), o mesmo arquivo-texto lido no início do programa deverá ser sobrescrito com os novos registros, e sua formatação deve ser compatível com uma nova execução do programa.
